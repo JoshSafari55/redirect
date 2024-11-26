@@ -36,7 +36,7 @@ app.get("/bill", (req, res) => {
       </body>
       </html>
   `);
-  }, 60000);
+  }, 60001);
 });
 
 app.listen(3000, () => console.log("Server ready on port 3000."));
