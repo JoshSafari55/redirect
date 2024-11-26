@@ -39,7 +39,6 @@ app.get("/bill", (req, res) => {
   }, 60000);
 });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-});
+app.listen(3000, () => console.log("Server ready on port 3000."));
+
+module.exports = app;
