@@ -4,7 +4,7 @@
   "description": "",
   "main": "redirect.js",
   "scripts": {
-    "start": "node redirect.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
